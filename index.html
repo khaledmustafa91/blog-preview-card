@@ -1,52 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Blog preview card</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
-    .normal-figtree {
-      font-family: "Figtree", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 500;
-      font-style: normal;
-    }
-    .bold-figtree {
-      font-family: "Figtree", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 800;
-      font-style: normal;
-    }
-  </style>
-</head>
-<body class="normal-figtree h-screen flex items-center justify-center bg-[#f4d04e]">
-  <section class="border-black border max-w-[384px] max-h-[522px] m-auto bg-white p-[24px] rounded-[20px]
-  drop-shadow-[8px_8px_0px_rgba(0,0,0,1)]">
-    <img src="assets/images/illustration-article.svg" alt="image" class="center" style="border-radius: 20px;"/>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-    <div class="text-center text-sm bold-figtree max-w-[82px] bg-[#f4d04e] px-[12px] py-[4px] rounded-[4px] my-[12px]
-    drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
-      <p> Learning </p>
-    </div>
+    <title>Blog preview card</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+      .normal-figtree {
+        font-family: 'Figtree', sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+      }
+      .bold-figtree {
+        font-family: 'Figtree', sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 800;
+        font-style: normal;
+      }
+    </style>
+  </head>
+  <body
+    class="normal-figtree h-screen flex items-center justify-center bg-[#f4d04e]"
+  >
+    <section
+      class="border-black border max-w-[384px] max-h-[522px] m-auto bg-white p-[24px] rounded-[20px] drop-shadow-[8px_8px_0px_rgba(0,0,0,1)]"
+    >
+      <img
+        src="assets/images/illustration-article.svg"
+        alt="image"
+        class="center"
+        style="border-radius: 20px"
+      />
 
-    <div class="text-sm w-[143px] my-[12px]">
-      <p> Published 21 Dec 2023 </p>
-    </div>
+      <div
+        class="text-center text-sm bold-figtree max-w-[82px] bg-[#f4d04e] px-[12px] py-[4px] rounded-[4px] my-[12px] drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]"
+      >
+        <p>Learning</p>
+      </div>
 
-    <h1 class="bold-figtree text-xl my-[12px] hover:text-[#f4d04e] cursor-pointer"> HTML & CSS foundations </h1>
+      <div class="text-sm w-[143px] my-[12px]">
+        <p>Published 21 Dec 2023</p>
+      </div>
 
-    <p class="text-sm text-[#7F7F7F] my-[12px]">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+      <h1
+        class="bold-figtree text-xl my-[12px] hover:text-[#f4d04e] cursor-pointer"
+      >
+        HTML & CSS foundations
+      </h1>
 
-    <div class="flex items-center w-[129px] h-[32px] mt-[24px]">
-      <img src="assets/images/image-avatar.webp" alt="profile" class="size-[32px] mr-[12px]" />
-      <p class="text-[14px] bold-figtree"> Greg Hooper </p>
-    </div>
-  </section>
-</body>
+      <p class="text-sm text-[#7F7F7F] my-[12px]">
+        These languages are the backbone of every website, defining structure,
+        content, and presentation.
+      </p>
+
+      <div class="flex items-center w-[129px] h-[32px] mt-[24px]">
+        <img
+          src="assets/images/image-avatar.webp"
+          alt="profile"
+          class="size-[32px] mr-[12px]"
+        />
+        <p class="text-[14px] bold-figtree">Greg Hooper</p>
+      </div>
+    </section>
+  </body>
 </html>
